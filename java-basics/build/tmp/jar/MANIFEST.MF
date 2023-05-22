@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: okhttp-4.10.0.jar okio-jvm-3.0.0.jar kotlin-stdlib-jdk8-1.
+ 5.31.jar kotlin-stdlib-jdk7-1.5.31.jar kotlin-stdlib-1.6.20.jar kotli
+ n-stdlib-common-1.6.20.jar annotations-13.0.jar
+Main-Class: Main
+

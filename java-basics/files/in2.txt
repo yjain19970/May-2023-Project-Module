@@ -1,0 +1,25 @@
+1123
+4
+5
+7
+8
+222
+2
+32
+3
+
+Assignment:
+You need to read both of the files and sort the numbers (lists) and create a new list.
+Create a new file and add the new list in that file as the data of that file.
+
+in1.txt | in2.txt
+4,7,2   | 1,9,3
+Output:
+out.txt : 1,2,3,4,7,9
+
+
+
+Submitting the Output:
+* Create a new Repo and add the code in that Repo.
+* Submit your Code Repo link in the GoogleForm Link:
+
