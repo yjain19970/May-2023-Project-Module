@@ -1,0 +1,19 @@
+you have to add more functionalities to ToDo Application. Such as:
+
+1. Create CRUD for ToDos
+2. Allowing user to only update the task_status (create a new field Task -> taskStatus in your POJO)
+3. Adding validations for required cases and throwing string-error response (as of now)
+4. Hot to take RequestParam in SpringBoot and have a variant of Get API using PathParam AND RequestParam
+
+
+Submission:
+* create a new Repo and put the repo link in the google form: https://forms.gle/tp3v4uumg9GcSWPq6
+* As of now you can code in the same controller, no need to create serviceClasses
+* Can use local memory (DS) and no DB required.
+
+
+Bonus
+* Take Param and filter the data and return according to passed Params. EG:
+Sort by (ASC/DESC) : on task_id
+
+This paste expires in <30 days. Public IP access. Share whatever you see with others in seconds with Context.Terms of ServiceReport this
