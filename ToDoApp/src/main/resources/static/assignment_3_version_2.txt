@@ -1,0 +1,19 @@
+### Assignment
+
+1. you have to complete the remaining methods in controller and service.
+2. You also have to handle the validations:
+    create / updating / deleting / get
+    -> update: if id is not found OR update only allows you to edit the task Status (that's it)
+    -> Name: length of name can be 50 ONLY. Similarly, descrip length can be 200char MAX.
+    -> return ONLY 1 exception to client at 1 time.
+
+    ## How to Handle validations :(hint)
+     -- create a separate validator file. Handle the validations in your service, and throw
+     exceptions from there.
+3. Implement the buidler as well
+4. Create TaskResponseDTO ; as of now we are making use of same DTO, but actually we should have
+different DTOs.
+
+
+
+Submission link form : https://forms.gle/5eopwMkqczu2GC1M9
