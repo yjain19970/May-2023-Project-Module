@@ -1,5 +1,8 @@
 package com.scaler.blogapplication;
 
+import com.scaler.blogapplication.tokens.JWTTokenService;
+import com.scaler.blogapplication.tokens.TokenService;
+import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -14,8 +17,13 @@ public class BlogApplication {
     }
 
 
-    @Bean
+    @Bean(BeanDefinition.SCOPE_SINGLETON)
     public PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
     }
+
+//    @Bean(BeanDefinition.SCOPE_SINGLETON)
+//    public TokenService tokenService(){
+//        return new JWTTokenService();
+//    }
 }

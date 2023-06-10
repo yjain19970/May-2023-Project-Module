@@ -11,13 +11,14 @@ import java.util.List;
 public class ArticleController {
 
     @GetMapping("")
-    ResponseEntity<List<Article>> getAllArticles(){
+    ResponseEntity<String> getAllArticles(){
 
-        return null;
+        return ResponseEntity.ok("All Articles"); // No need of Authentication here.
     }
 
-    @PostMapping("")
-    ResponseEntity<Article> createArticle(@RequestBody ArticleDTO articleDTO){
-        return null;
+    @PostMapping("") // need authentication  here.
+    ResponseEntity<String> createArticle(@RequestBody ArticleDTO articleDTO){
+
+        return ResponseEntity.ok("Article created Successfully~");
     }
 }
